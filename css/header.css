@@ -5,6 +5,11 @@
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 1;
+}
+
+.top-header a {
+    color: white;
 }
 
 .top-header .header__top,
@@ -19,7 +24,6 @@
 
 .top-header .header__bottom {
     margin: 0 10px;
-    font-size: 12px;
 }
 
 .top-header .header__column {
